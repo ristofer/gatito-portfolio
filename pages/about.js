@@ -1,11 +1,11 @@
 import React from "react";
 import ContainerBlock from "../components/ContainerBlock";
-import AboutMe from "../components/AboutMe";
+import AboutMeFull from "../components/AboutMeFull";
 
 export default function about() {
     return (
         <ContainerBlock title="Sobre mí">
-            <AboutMe />
+            <AboutMeFull/>
         </ContainerBlock>
     )
 }
