@@ -8,13 +8,13 @@ export default function Hero() {
 
             </div>
             <div className="w-full lg:flex lg:flex-col md:w-1/3 text-center md:text-left mx-auto lg:p-20">
-                <h1 className="text-4xl md:text-8xl font-bold text-gray-300 dark:text-gray-200 my-2">
+                <h1 className="text-4xl md:text-8xl font-bold text-gray-400 dark:text-gray-400 my-2">
                     Fullstack Dev
                 </h1>
-                <h1 className="text-4xl md:text-8xl font-bold text-gray-300 dark:text-gray-200 my-2">
+                <h1 className="text-4xl md:text-8xl font-bold text-gray-300 dark:text-red-200 my-2">
                     Cristopher
                 </h1>
-                <h1 className="text-4xl md:text-8xl font-bold text-gray-300 dark:text-gray-200 my-2">
+                <h1 className="text-4xl md:text-8xl font-bold text-gray-300 dark:text-blue-200 my-2">
                     Gómez
                 </h1>
             </div>

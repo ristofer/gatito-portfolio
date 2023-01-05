@@ -59,27 +59,32 @@ export default function Navbar() {
             <div className="space-x-8 block mt-4">
                 <Link
                     href="/"
-                    className="text-base fontnormal text-gray-100 dark:text-gray-300"
+                    legacyBehavior
+                    passHref
+                    className=" text-base fontnormal text-gray-100 dark:text-gray-300"
                 >
-                    Home
+                    <a className="hover:bg-purple-500">Home</a>
                 </Link>
                 <Link
                     href="/projects"
+                    legacyBehavior
                     className="text-base fontnormal text-gray-100 dark:text-gray-300"
                 >
-                    Proyectos
+                    <a className="hover:bg-purple-500">Proyectos</a>
                 </Link>
                 <Link
                     href="/about"
+                    legacyBehavior
                     className="text-base fontnormal text-gray-100 dark:text-gray-300"
                 >
-                    Sobre mí
+                    <a className="hover:bg-purple-500">Sobre mí</a>
                 </Link>
                 <Link
                     href="/contact"
+                    legacyBehavior
                     className="text-base fontnormal text-gray-100 dark:text-gray-300"
                 >
-                    Contacto
+                    <a className="hover:bg-purple-500">Contacto</a>
                 </Link>
 
             </div>
