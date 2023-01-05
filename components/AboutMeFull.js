@@ -2,13 +2,13 @@ import React from "react";
 
 export default function AboutMeFull() {
     return (
-        <section className="bg-white dark:bg-gray-800 pb-40">
-            <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
+        <section className="bg-gray-800 pb-40">
+            <div className="max-w-6xl mx-auto h-48 bg-gray-800">
                 <h1 className="text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
                     Sobre mí.
                 </h1>
             </div>
-            <div className="bg-white -mt-10 dark:bg-gray-900">
+            <div className="-mt-10 bg-gray-900">
                 <div className="text-container max-w-6xl mx-auto pt-20">
                     <p
                         className="leading-loose text-xl md:text-3xl font-semibold mx-4 pb-2 pt-2"

@@ -3,13 +3,13 @@ import userData from "@constants/data";
 
 export default function Projects() {
     return (
-        <section className="bg-purple-500 dark:bg-gray-800">
-            <div className="max-w-6xl mx-auto h-48 bg-purple-500 dark:bg-gray-800">
+        <section className="bg-gray-800">
+            <div className="max-w-6xl mx-auto h-48 bg-gray-800">
                 <h1 className="text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
                     Proyectos
                 </h1>
             </div>
-            <div className="bg-gray-500 dark:bg-gray-900">
+            <div className="bg-gray-900">
                 <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-1 gap-8 pl-4 pr-4 py-20 pb-40">
                     {userData.projects.map((proj, idx) => (
                         <ProjectCard

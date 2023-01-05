@@ -3,10 +3,10 @@ import Link from "next/link";
 
 export default function HighlightedProject() {
     return (
-        <div className="bg-white -mt-40 dark:bg-gray-900">
+        <div className=" -mt-40 bg-gray-900">
             <div className="max-w-6xl mx-auto">
                 <header className="flex flex-col md:flex-row justify-end items-center pt-40 mx-10 md:my-20 lg:my-0">
-                    <h1 className="text-6xl lg:text-9xl max-w-lg font-bold text-gray-300 my-20 md:my-0 md:text-white dark:text-gray-300 text-center">
+                    <h1 className="text-6xl lg:text-9xl max-w-lg font-bold  my-20 md:my-0  text-gray-300 text-center">
                         Proyectos
                     </h1>
                 </header>
