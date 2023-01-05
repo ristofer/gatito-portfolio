@@ -21,7 +21,7 @@ export default function Hero() {
             <div className="hidden p-20 lg:flex w-1/3 justify-start center-align">
                 <div className="w-full">
                     <img src={userData.avatarUrl} alt="cris" 
-                    className="transform hover:scale-150 transition duration-500 ease-out shadow rounded-full mx-20 2xl:mx-0" />
+                    className="transform hover:scale-150 transition duration-500 ease-out shadow rounded-full mx-20 xl:mx-2" />
                 </div>
             </div>
         </div>
