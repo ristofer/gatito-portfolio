@@ -12,7 +12,7 @@ export default function HighlightedProject() {
                 </header>
 
                 <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pt-2 mx-6 md:pt-20">
-                    <div 
+                    <div
                         className="w-full block col-span-3 shadow-2x1">
                         <div className="relative overflow-hidden">
                             <img
@@ -23,16 +23,15 @@ export default function HighlightedProject() {
                             <a
                                 href="https://gatitolabs.cl"
                                 target="_blank" rel="noreferrer"
-                                >
-                            <h1 className="absolute top-5 left-5 text-gray-200 font-bold text-xl bg-blue-900 rounded-md px-2">
-                                Gatitolabs
-                            </h1>
+                            >
+                                <h1 className="absolute top-5 left-5 text-gray-200 font-bold text-xl bg-blue-900 rounded-md px-2">
+                                    Gatitolabs
+                                </h1>
                             </a>
                         </div>
                     </div>
-                    <a
-                        href="https://sim.fgmm.cl"
-                        target="_blank" rel="noreferrer"
+                    <div
+
                         className="w-full block col-span-3 sm:col-span-2 shadow-2xl"
                     >
                         <div className="relative overflow-hidden">
@@ -41,14 +40,18 @@ export default function HighlightedProject() {
                                 alt="simulador dmx"
                                 className="transform hover:scale-125 transition duration-2000 ease-out"
                             />
+                            <a
+                                href="https://sim.fgmm.cl"
+                                target="_blank" rel="noreferrer"
+                                >
                             <h1 className="absolute top-5 left-5 text-gray-50 font-bold text-xl bg-blue-900 rounded-md px-2">
                                 Simulador de luces
                             </h1>
+                            </a>
                         </div>
-                    </a>
-                    <a
-                        href="https://mosaico2.gatitolabs.cl"
-                        target="_blank" rel="noreferrer"
+                    </div>
+                    <div
+
                         className="w-full block col-span-3 sm:col-span-1 object-cover"
                     >
                         <div className="relative overflow-hidden shadow-2xl">
@@ -57,12 +60,17 @@ export default function HighlightedProject() {
                                 alt="mosaico fractal"
                                 className="transform hover:scale-125 transition duration-2000 ease-out object-cover shadow-2xl"
                             />
-                            <h1 className="absolute top-5 left-5 text-gray-50 font-bold text-xl bg-blue-900 rounded-md px-2">
-                                Mosaico Fractal
-                            </h1>
+                            <a
+                                href="https://mosaico2.gatitolabs.cl"
+                                target="_blank" rel="noreferrer"
+                            >
+                                <h1 className="absolute top-5 left-5 text-gray-50 font-bold text-xl bg-blue-900 rounded-md px-2">
+                                    Mosaico Fractal
+                                </h1>
+                            </a>
                         </div>
 
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>
