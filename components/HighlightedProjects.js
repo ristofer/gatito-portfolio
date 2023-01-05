@@ -6,14 +6,13 @@ export default function HighlightedProject() {
         <div className=" -mt-40 bg-gray-900">
             <div className="max-w-6xl mx-auto">
                 <header className="flex flex-col md:flex-row justify-end items-center pt-40 mx-10 md:my-20 lg:my-0">
-                    <h1 className="text-6xl lg:text-9xl max-w-lg font-bold  my-20 md:my-0  text-gray-300 text-center">
+                    <h1 className="text-6xl lg:text-9xl max-w-lg font-bold my-20 lg:my-0  text-gray-300 text-center">
                         Proyectos
                     </h1>
                 </header>
 
-                <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 p-12">
-                    <a href="https://gatitolabs.cl"
-                        target="_blank" rel="noreferrer"
+                <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pt-2 mx-6 md:pt-20">
+                    <div 
                         className="w-full block col-span-3 shadow-2x1">
                         <div className="relative overflow-hidden">
                             <img
@@ -21,11 +20,16 @@ export default function HighlightedProject() {
                                 alt="gatitolabs"
                                 className="transform hover:scale-125 transition duration-2000 ease-out"
                             />
+                            <a
+                                href="https://gatitolabs.cl"
+                                target="_blank" rel="noreferrer"
+                                >
                             <h1 className="absolute top-5 left-5 text-gray-200 font-bold text-xl bg-blue-900 rounded-md px-2">
                                 Gatitolabs
                             </h1>
+                            </a>
                         </div>
-                    </a>
+                    </div>
                     <a
                         href="https://sim.fgmm.cl"
                         target="_blank" rel="noreferrer"

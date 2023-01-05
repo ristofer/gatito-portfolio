@@ -14,7 +14,7 @@ export default function Navbar() {
     }, []);
 
     return (
-        <div className="max-w-6xl mx-auto px-8 py-10 md:py-20 bg-gray-800">
+        <div className="max-w-6xl mx-auto px-8 py-6 bg-gray-800">
             <div className="flex md:flex-row justify-between items-center">
                 <div className="flex flex-col">
                     <Link href="/">
@@ -27,35 +27,35 @@ export default function Navbar() {
                     </Link>
                 </div>
             </div>
-            <div className="space-x-8 block mt-4">
+            <div className="space-x-4 md:space-x-8 block mt-4 md:text-lg">
                 <Link
                     href="/"
                     legacyBehavior
                     passHref
-                    className=" text-base fontnormal text-gray-300"
+                    className="text-base fontnormal text-gray-300"
                 >
-                    <a className="hover:bg-purple-500">Home</a>
+                    <a className="text-gray-300 hover:bg-purple-500">Home</a>
                 </Link>
                 <Link
                     href="/projects"
                     legacyBehavior
                     className="text-base fontnormal text-gray-300"
                 >
-                    <a className="hover:bg-purple-500">Proyectos</a>
+                    <a className="text-gray-300 hover:bg-purple-500">Proyectos</a>
                 </Link>
                 <Link
                     href="/about"
                     legacyBehavior
                     className="text-base fontnormal text-gray-300"
                 >
-                    <a className="hover:bg-purple-500">Sobre mí</a>
+                    <a className="text-gray-300 hover:bg-purple-500">Sobre mí</a>
                 </Link>
                 <Link
                     href="/contact"
                     legacyBehavior
                     className="text-base fontnormal text-gray-300"
                 >
-                    <a className="hover:bg-purple-500">Contacto</a>
+                    <a className="text-gray-300 hover:bg-purple-500">Contacto</a>
                 </Link>
 
             </div>

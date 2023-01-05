@@ -3,8 +3,8 @@ import userData from "@constants/data";
 
 export default function Contact() {
     return (
-        <section className="bg-gray-800 pb-40">
-            <div className="text-container max-w-6xl pt-2 mx-auto">
+        <section className="bg-gray-800 pb-40 pt-20">
+            <div className="text-gray-300 text-container max-w-6xl pt-2 mx-auto">
                 <p
                     className="leading-loose text-xl md:text-3xl font-semibold mx-10 pb-10 pt-2"
                     style={{ lineHeight: "2rem" }}>
@@ -12,7 +12,7 @@ export default function Contact() {
                     o correo electrónico
                 </p>
             </div>
-            <div className="flex flex-col max-w-6xl md:mx-auto justify-center mx-4">
+            <div className="flex flex-col max-w-6xl xl:mx-auto justify-center mx-12">
                 <div className="flex flex-row pt-8">
                     <a
                         href={userData.socialLinks.linkedin}
@@ -39,7 +39,7 @@ export default function Contact() {
 
                 </div>
                 <div
-                    className="flex flex-row pt-8"
+                    className="flex flex-row pt-8 text-gray-300"
                 >
                     <svg xmlns="http://www.w3.org/2000/svg"
                         width="16" height="16"
@@ -52,7 +52,7 @@ export default function Contact() {
                 </div>
 
                 <div
-                    className="flex flex-row pt-8">
+                    className="flex flex-row pt-8 text-gray-300" >
                     <a href="https://github.com/ristofer" target="_blank" rel="noreferrer">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
