@@ -19,32 +19,30 @@ export default function AboutMeFull() {
                     <p
                         className="text-gray-300 leading-loose text-md md:text-xl font-semibold mx-4 pb-2 pt-2"
                         style={{ lineHeight: "2rem" }}>
-                        Cuando estaba en la universidad participaba en competencias internacionales de robótica.
+                        Cuando estaba en la universidad, participaba en competencias internacionales de robótica.
                     </p>
                     <p
                         className="text-gray-300 leading-loose text-md md:text-xl font-semibold mx-4 pb-2 pt-2"
                         style={{ lineHeight: "2rem" }}>
                         Aunque estudié Ingeniería Civil Mecánica, el mundo del desarrollo web me conquistó y desde el 2020
-                        me dedico a trabajar como freelance.
+                        trabajo como freelance.
                     </p>
                     <p
                         className="text-gray-300 leading-loose text-md md:text-xl font-semibold mx-4 pb-2 pt-2"
                         style={{ lineHeight: "2rem" }}>
-                        Entre los años 2016 y 2019 dictaba cursos de robótica educativa en Santiago en los programas de la Fundación Mustakis.
-                        Me encanta el área de la educación, en especial la educación en ciencias y tecnologías.
+                        Entre los años 2016 y 2019, dicté cursos de robótica educativa en Santiago en los programas de la Fundación Mustakis.
+                        Me encanta el área de la educación, especialmente la educación en ciencias y tecnologías.
                     </p>
                     <p
                         className="text-gray-300 leading-loose text-md md:text-xl font-semibold mx-4 pb-2 pt-2"
                         style={{ lineHeight: "2rem" }}>
-                        El año 2021 junto con dos amigos decidimos desarrollar un simulador de robótica web, de fácil acceso y orientado al aprendizaje. Postulamos la idea a CORFO y nos asignaron un fondo
-                        semilla para desarrollarla.
+                        En 2021, junto con dos amigos, decidimos desarrollar un simulador de robótica web accesible y orientado al aprendizaje. Nuestra idea fue seleccionada por CORFO y nos otorgaron un fondo semilla para su desarrollo.
                     </p>
                     <p
                         className="text-gray-300 leading-loose text-md md:text-xl font-semibold mx-4 pb-2 pt-2"
                         style={{ lineHeight: "2rem" }}>
-                        Logramos tener 400 usuarios provenientes de distintas regiones de Chile con un muy buen recibimiento.
-                        Sin embargo, me di cuenta que prefería dedicarme al desarrollo que a los negocios por lo que desistí de seguir avanzando con el proyecto.
-                    </p>
+                        Logramos tener 400 usuarios provenientes de diferentes regiones de Chile, quienes usaban entusiasmadamente el simulador.
+                        Pero decidí dedicarme al desarrollo de software que a los negocios, así que abandoné el proyecto.                    </p>
                     <p
                         className="text-gray-300 leading-loose text-md md:text-xl font-semibold mx-4 pb-2 pt-2"
                         style={{ lineHeight: "2rem" }}>
@@ -53,8 +51,8 @@ export default function AboutMeFull() {
                     <p
                         className="text-gray-300 leading-loose text-md md:text-xl font-semibold mx-4 pb-2 pt-2"
                         style={{ lineHeight: "2rem" }}>
-                        El 2021 Fintual buscaba gente que supiera programar pero aún no se sentían desarrolladores. Ofrecían un intensivo de desarrollo web en la Patagonia.
-                        Postulé, quedé entre los 10 seleccionados de 1010 postulantes y me fui 3 meses a la maravillosa ciudad de Puerto Natales a 
+                        En 2021, Fintual buscaba gente que supiera programar pero aún no se sintieran desarrolladores. Ofrecían un intensivo de desarrollo web en la Patagonia.
+                        Postulé, quedé entre los 10 seleccionados de 1010 postulantes y me fui 3 meses a la maravillosa ciudad de Puerto Natales, a
                         perfeccionarme en el mundo del desarrollo.
                     </p>
                 </div>
