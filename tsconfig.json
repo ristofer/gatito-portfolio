@@ -15,7 +15,7 @@
     "jsx": "preserve",
     "incremental": true,
     "paths":{
-      "@constants/*": ["constants/*"]
+      "@constants/*": ["./constants/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
