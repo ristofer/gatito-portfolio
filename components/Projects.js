@@ -28,7 +28,7 @@ export default function Projects() {
 
 const ProjectCard = ({ title, link, imgUrl, number }) => {
     return (
-        <a href={link} className="w-full block shadow-2xl">
+        <a href={link} className="w-full block shadow-2xl" rel="noreferrer" target="_blank">
             <div className="relative overflow-hidden rounded-3xl">
                 <div className="h-80 object-cover">
                     <img
