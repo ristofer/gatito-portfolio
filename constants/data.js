@@ -5,6 +5,11 @@ const userData = {
     avatarUrl: "https://avatars.githubusercontent.com/u/20021589?v=4",
     projects: [
       {
+        title: "Gatitolabs",
+        link: "https://www.youtube.com/watch?v=ckzbegPFjI4",
+        imgUrl: "/gatitolabs.png",
+      },
+      {
         title: "Mosaico Fractal",
         link: "https://mosaico2.gatitolabs.cl",
         imgUrl: "/mosaico-mustakis.png",
@@ -13,13 +18,7 @@ const userData = {
         title: "Simulador de luces de escenario",
         link: "https://sim.fgmm.cl/",
         imgUrl: "/simulador-mustakis.png",
-      },
-      {
-        title: "Gatitolabs",
-        link: "https://www.youtube.com/watch?v=ckzbegPFjI4",
-        imgUrl: "/gatitolabs.png",
-      },
-    ],
+      },    ],
     about: {
       title:
         "I'm a software developer that loves building products and web applications that impact millions of lives",

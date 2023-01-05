@@ -10,7 +10,7 @@ export default function Projects() {
                 </h1>
             </div>
             <div className="bg-gray-500 dark:bg-gray-900">
-                <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40">
+                <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-1 gap-8 pl-4 pr-4 py-20 pb-40">
                     {userData.projects.map((proj, idx) => (
                         <ProjectCard
                             title={proj.title}
@@ -30,7 +30,7 @@ const ProjectCard = ({ title, link, imgUrl, number }) => {
     return (
         <a href={link} className="w-full block shadow-2xl">
             <div className="relative overflow-hidden rounded-3xl">
-                <div className="h-72 object-cover">
+                <div className="h-80 object-cover">
                     <img
                         src={imgUrl}
                         alt="portfolio"

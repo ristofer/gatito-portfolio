@@ -4,7 +4,6 @@ import ContainerBlock from "../components/ContainerBlock";
 import Hero from "../components/Hero";
 import AboutMe from "../components/AboutMe";
 import HighlightedProjects from "../components/HighlightedProjects";
-import CardsTest from "../components/CardsTest";
 
 export default function Home() {
     return (
@@ -15,9 +14,6 @@ export default function Home() {
             <Hero />
             <AboutMe/>
             <HighlightedProjects />
-            <CardsTest
-                title="Gatitolabs"
-                body="hola"/>
         </ContainerBlock>
     );
 }
