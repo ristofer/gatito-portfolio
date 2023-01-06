@@ -46,7 +46,7 @@ export default function AboutMeFull() {
                     <p
                         className="text-gray-300 leading-loose text-md md:text-xl font-semibold mx-4 pb-2 pt-2"
                         style={{ lineHeight: "2rem" }}>
-                        En mis tiempos libres me dedico a desarrollar una nueva versión de Gatitolabs, para potenciar la enseñanza de la programación en los escolares.
+                        En mis tiempos libres me dedico a desarrollar una nueva versión del simulador, para potenciar la enseñanza de la programación en los escolares.
                     </p>
                     <p
                         className="text-gray-300 leading-loose text-md md:text-xl font-semibold mx-4 pb-2 pt-2"
