@@ -21,7 +21,7 @@ export default function HighlightedProject() {
                                 className="transform hover:scale-125 transition duration-2000 ease-out"
                             />
                             <a
-                                href="https://gatitolabs.cl"
+                                href="https://www.youtube.com/watch?v=ckzbegPFjI4"
                                 target="_blank" rel="noreferrer"
                             >
                                 <h1 className="absolute top-5 left-5 text-gray-200 font-bold text-xl bg-blue-900 rounded-md px-2">
