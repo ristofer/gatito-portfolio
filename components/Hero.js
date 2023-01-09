@@ -9,7 +9,7 @@ export default function Hero() {
             </div>
             <div className="w-full lg:flex lg:flex-col lg:w-1/3 lg:text-left text-center mx-auto lg:p-20">
                 <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold text-gray-400 my-2">
-                    Fullstack Dev
+                    Full Stack Dev
                 </h1>
                 <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold text-red-200 my-2">
                     Cristopher

@@ -5,7 +5,6 @@ import { useRouter } from "next/router";
 
 export default function Navbar() {
     const router = useRouter();
-    console.log(router.asPath);
     const { theme, setTheme } = useTheme();
     const [mounted, setMounted] = useState(false);
 
@@ -22,7 +21,7 @@ export default function Navbar() {
                             Cristopher Gómez
                         </h1>
                         <p className="text-base font-light text-gray-300">
-                            Fullstack Dev
+                            Full Stack Dev
                         </p>
                     </Link>
                 </div>
